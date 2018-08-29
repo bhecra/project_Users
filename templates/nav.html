@@ -1,0 +1,33 @@
+{% load static %}
+<navclass="navbar navbar-expand-lg fixed-top"id="main-navbar">
+    <divclass="container">
+
+        <aclass="navbar-brand pr-5"style="border-right: 1px solid #efefef;"href="">
+            <imgsrc="{% static "img/instagram.png" %}"height="45"class="d-inline-block align-top"/>
+        </a>
+
+        <divclass="collapse navbar-collapse">
+            <ulclass="navbar-nav mr-auto">
+
+                <liclass="nav-item">
+                    <ahref="">
+                        <imgsrc="{% static 'img/default-profile.png' %}"height="35"class="d-inline-block align-top rounded-circle"/>
+                    </a>
+                </li>
+
+                <liclass="nav-item nav-icon">
+                    <ahref="">
+                        <iclass="fas fa-plus"></i>
+                    </a>
+                </li>
+
+                <liclass="nav-item nav-icon">
+                    <ahref="">
+                        <iclass="fas fa-sign-out-alt"></i>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
